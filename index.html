@@ -1,35 +1,68 @@
 <html>
 <body>
-<style>
-button1 {
-  background-color: #04AA6D; /* Green */
-  font-family: courier;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translateY(-50%);
-  transform: translateX(-50%);
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-}
-button2 {
-  background-color: #04FF6C; /* Blue */
-  border: none;
-  color: magenta;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-}
-</style>
-<h1 style="text-align:center;color:red;"> Hello. Welcome to my website. This is funny ahahgfadsgasd</h1>
-<button1 onclick="document.location='nicenewpage.html'">View My Resume!</button1>
-<br>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+
+        #Resume {
+            background-color: mediumblue; /* Green */
+            font-family: Story;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translateY(-50%);
+            transform: translateX(-50%);
+            text-decoration: none;
+            display: inline-block;
+            font-size: 5vmin;
+        }
+
+            #Resume:hover {
+                background-color: red;
+            }
+
+        button2 {
+            background-color: red; /* Blue */
+            border: none;
+            color: magenta;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+        }
+
+        @font-face {
+            font-family: Snow;
+            src: url('fonts/Snow.ttf');
+        }
+
+        @font-face {
+            font-family: Android;
+            src: url('fonts/Android.ttf')
+        }
+
+        @font-face {
+            
+            font-weight: 600;
+            font-family: Browser;
+            src: url('fonts/Browser.ttf')
+        }
+        @font-face {
+            font-family: Bagero;
+            src: url('fonts/Bagero.otf')
+        }
+        @font-face{
+            font-weight: normal;
+            font-family: Story;
+            src: url('fonts/Story.ttf')
+        }
+    </style>
+    <h1 style="text-align:center;color:#ad219c;font-family:Browser;font-size:20vmin;">George Karaiskos</h1>
+    <button id="Resume" onclick="document.location='nicenewpage.html'"> View My Resume!</button1>
+        <br>
 </body>
 </html>
