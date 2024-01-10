@@ -1,8 +1,20 @@
 <html>
 <body>
-    <link rel="stylesheet" href="./style.css">
     <style>
+        body{
+            background-color: black;
+        }
+        #header a {
+            border: 3px solid green;
+            margin-left: 40px;
+            margin-right: 40px;
+        }
 
+        #links {
+        position: absolute;
+        top: 0px;
+        right: 5px;
+        }
         #Resume {
             background-color: mediumblue; /* Green */
             font-family: Story;
@@ -23,17 +35,6 @@
             #Resume:hover {
                 background-color: red;
             }
-
-        button2 {
-            background-color: red; /* Blue */
-            border: none;
-            color: magenta;
-            padding: 15px 32px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-        }
 
         @font-face {
             font-family: Snow;
@@ -60,9 +61,12 @@
             font-family: Story;
             src: url('fonts/Story.ttf')
         }
+        #about:hover{
+            color: red;
+        }
     </style>
     <h1 style="text-align:center;color:#ad219c;font-family:Browser;font-size:20vmin;">George Karaiskos</h1>
-    <button id="Resume" onclick="document.location='nicenewpage.html'"> View My Resume!</button1>
-        <br>
-</body>
+    <button id="Resume" onclick="document.location='nicenewpage.html'">View My Resume!</button>
+    <div id="links"><a id="about" href="nicenewpage.html">About</a></div>
+        </body>
 </html>
