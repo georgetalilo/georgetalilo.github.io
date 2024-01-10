@@ -1,41 +1,7 @@
 <html>
 <body>
+    <link rel="stylesheet" href="style.css">
     <style>
-        body{
-            background-color: black;
-        }
-        #header a {
-            border: 3px solid green;
-            margin-left: 40px;
-            margin-right: 40px;
-        }
-
-        #links {
-        position: absolute;
-        top: 0px;
-        right: 5px;
-        }
-        #Resume {
-            background-color: mediumblue; /* Green */
-            font-family: Story;
-            border: none;
-            color: white;
-            padding: 15px 32px;
-            text-align: center;
-            position: absolute;
-            left: 50%;
-            top: 50%;
-            transform: translateY(-50%);
-            transform: translateX(-50%);
-            text-decoration: none;
-            display: inline-block;
-            font-size: 5vmin;
-        }
-
-            #Resume:hover {
-                background-color: red;
-            }
-
         @font-face {
             font-family: Snow;
             src: url('fonts/Snow.ttf');
@@ -47,26 +13,28 @@
         }
 
         @font-face {
-            
             font-weight: 600;
             font-family: Browser;
             src: url('fonts/Browser.ttf')
         }
+
         @font-face {
             font-family: Bagero;
             src: url('fonts/Bagero.otf')
         }
-        @font-face{
+
+        @font-face {
             font-weight: normal;
             font-family: Story;
             src: url('fonts/Story.ttf')
         }
-        #about:hover{
+
+        #about:hover {
             color: red;
         }
     </style>
-    <h1 style="text-align:center;color:#ad219c;font-family:Browser;font-size:20vmin;">George Karaiskos</h1>
-    <button id="Resume" onclick="document.location='nicenewpage.html'">View My Resume!</button>
-    <div id="links"><a id="about" href="nicenewpage.html">About</a></div>
-        </body>
+    <h1 style="text-align: center; color: #382b22; font-family: Browser; font-size: 20vmin; text-shadow: 1px 1px 2px, 0 0 0.2em white; ">George Karaiskos</h1>
+    <button id="Button" onclick="document.location='nicenewpage.html'" style="bottom:10%;">View My Resume!</button>
+    <button id="Button" onclick="document.location='nicenewpage.html'" style="bottom:6%;">&nbsp; &nbsp; &nbsp; &nbsp; About Me! &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </button>
+</body>
 </html>
