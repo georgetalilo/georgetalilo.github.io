@@ -28,3 +28,5 @@ button:active {
           box-shadow: inset 0px 0px 5px #c1c1c1;
    outline: none;
 }
+
+#certifications{padding:50px 15px;text-align:center}#certifications h2{color:#374054;margin-bottom:50px}#certifications ul{display:block;margin:0 auto;padding:0;max-width:800px}#certifications li{display:inline-block;margin:7px;padding:5px 10px;color:#374054;background:#e4e4ea;list-style:none;cursor:default;font-size:1.2em}
